@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 5%;
+  height: 15vh;
+  background-color: #ccc;
+}
+
+.header .logo {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.header .nav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.header .nav a {
+  color: black;
+}
+
+.img {
+  width: 80px;
+}

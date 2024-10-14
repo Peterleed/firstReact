@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 5%;
+  height: 15vh;
+  background-color: darkgrey;
+  color: white;
+}
+
+.img {
+  width: 80px;
+}
