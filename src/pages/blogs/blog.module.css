@@ -1,8 +1,25 @@
-.blogPage {
+.blogs {
   padding: 2rem 4rem;
+}
+
+.blogPage {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 3rem;
+}
+
+.loadMore {
+  width: 100%;
+  padding: 10px 20px;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.loadMore.hidden {
+  display: none;
 }
 
 @media (max-width: 500px) {
