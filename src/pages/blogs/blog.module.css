@@ -18,7 +18,7 @@
   cursor: pointer;
 }
 
-.loadMore.hidden {
+.hidden {
   display: none;
 }
 
