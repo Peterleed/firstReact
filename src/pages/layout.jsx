@@ -1,13 +1,16 @@
 import { Outlet } from "react-router-dom";
 import Footer from "../comps/footer/footer";
 import Navbar from "../comps/navbar/navbar";
+import ScrollToTop from "../utils/ScrollToTop";
 
 const Layout = () => {
   return (
     <>
-      <Navbar />
-      <Outlet />
-      <Footer />
+      <ScrollToTop>
+        <Navbar />
+        <Outlet />
+        <Footer />
+      </ScrollToTop>
     </>
   );
 };
